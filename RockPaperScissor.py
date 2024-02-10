@@ -4,7 +4,7 @@ print("Let's Play Rock, Paper, Scissor Game!!")
 
 hands = ["rock", "paper", "scissor"]
 def process(player, computer):
-    result = "";
+    result = ""
     if player.lower() == "rock":
         if computer == "rock":
             result = "Draw"
