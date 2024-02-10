@@ -14,7 +14,8 @@ while isPlaying:
 
     if user_guess == target_number:
         number_of_guesses += 1
-        print("Congratulations! You guessed the number + str(target_number) + " in " + str(number_of_guesses) + guesses\n\n")
+        print("Congratulations! You guessed the number + str(target_number) + " in
+              " + str(number_of_guesses) + guesses\n\n")
         
         isPlayAgain = True
         while isPlayAgain:
